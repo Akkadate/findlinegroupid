@@ -1,4 +1,4 @@
-##วิธีที่ 1: ใช้ ngrok (แนะนำสำหรับ testing)
+## วิธีที่ 1: ใช้ ngrok (แนะนำสำหรับ testing)
 ```
 # 1. ติดตั้ง ngrok
 curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
@@ -42,8 +42,8 @@ cloudflared tunnel --url http://localhost:3201
 https://abc-def-ghi.trycloudflare.com/webhook/find-group
 ```
 
-##วิธีใดเร็วที่สุดตอนนี้?
-###ถ้าต้องการเร็วที่สุดและไม่ต้องสมัครอะไร ให้ใช้ localtunnel:
+## วิธีที่ 3 วิธีใดเร็วที่สุดตอนนี้?
+### ถ้าต้องการเร็วที่สุดและไม่ต้องสมัครอะไร ให้ใช้ localtunnel:
 ```
 # 1. ติดตั้ง localtunnel
 npm install -g localtunnel
